@@ -1,4 +1,4 @@
-#!/usr/bin/python3.8
+#!/usr/bin/python3
 
 if __name__ == '__main__':
     hidden = __import__('hidden_4')
