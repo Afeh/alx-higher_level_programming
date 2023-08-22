@@ -18,11 +18,8 @@ def main(argv):
     elif operator == '/':
         print("{:d} {:s} {:d} = {:d}".format(a, operator, b, div(a, b)))
     else:
-        print("Unknown operator. Available operators: +, -, *, and /")
+        print("Unknown operator. Only: +, -, * and / available")
         exit(1)
-
-
-
 
 if __name__ == "__main__":
     import sys
