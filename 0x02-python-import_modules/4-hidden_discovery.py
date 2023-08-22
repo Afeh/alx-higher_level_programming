@@ -2,11 +2,11 @@
 import hidden_4
 
 def finder():
-    for k in dir(hidden_4):
-        if not (k[0] == '_' and k[1] == '_'):
-            print(k)
+    dir_name = dir(hidden_4)
+    for k in dir_name:
+        if k[:2] != '__':
+            print("{:s}".format(k))
 
 
 if __name__ == "__main__":
     finder()
-    
