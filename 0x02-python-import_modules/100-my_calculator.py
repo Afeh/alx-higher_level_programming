@@ -21,6 +21,7 @@ def main(argv):
         print("Unknown operator. Only: +, -, * and / available")
         exit(1)
 
+
 if __name__ == "__main__":
     import sys
     main(sys.argv)
